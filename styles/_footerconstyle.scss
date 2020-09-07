@@ -1,0 +1,94 @@
+/* Background-color*/
+
+$backgclr: lightgray;
+
+/* font color*/
+
+$fontclr: #FF6347;
+
+/*Background-color-navbar*/
+
+$backgclrnav: rgb(92, 90, 90);
+
+/* Font Family */
+
+$fontfam: sans-serif;
+.footer {
+    width: 100%;
+    position: relative;
+    height: 20vw;
+    background-color: $backgclr;
+}
+
+.footer .col {
+    height: auto;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    padding: 0 1vw 1vw 1vw;
+}
+
+.footer .col h1 {
+    margin: 0;
+    margin-top: 1.95vw;
+    padding: 0;
+    padding-top: 1vw;
+    font-family: inherit;
+    font-size: 1vw;
+    line-height: 1vw;
+    padding: 1vw 0 1vw 0;
+    color: $fontclr;
+    font-weight: normal;
+    text-transform: uppercase;
+    letter-spacing: 0.25vw;
+}
+
+.footer .col ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.footer .col ul li {
+    color: $fontclr;
+    font-size: 1vw;
+    font-family: inherit;
+    font-weight: bold;
+    padding: 1vw 0 0 0;
+    cursor: pointer;
+    transition: .2s;
+    -webkit-transition: .2s;
+    -moz-transition: .2s;
+}
+
+.footer .col a {
+    text-decoration: none;
+}
+
+.social ul li {
+    display: inline-block;
+    padding-right: 2vw;
+}
+
+.footer .col ul li:hover {
+    color: #ffffff;
+    transition: .1s;
+    -webkit-transition: .1s;
+    -moz-transition: .1s;
+}
+
+.clearfix {
+    clear: both;
+}
+
+.logo3 {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.logo3 img {
+    margin-top: 2vw;
+    padding-right: 12vw;
+    width: 13vw;
+    height: 13vw;
+}

@@ -1,0 +1,385 @@
+/* Background-color*/
+/* font color*/
+/*Background-color-navbar*/
+/* Font Family */
+.logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  height: 13vw;
+  background-color: lightgray;
+}
+
+.logo img {
+  margin-top: 1vw;
+  width: 12vw;
+  height: 12vw;
+  -o-object-fit: contain;
+     object-fit: contain;
+  padding-left: 10vw;
+  padding-right: 2vw;
+}
+
+.logo #cflogo img {
+  width: 17vw;
+  height: 13vw;
+  margin-left: -1vw;
+  padding-right: 10vw;
+}
+
+/* Navbar container */
+.navbar {
+  overflow: hidden;
+  background-color: #5c5a5a;
+  font-family: sans-serif;
+}
+
+/* Links inside the navbar */
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: #FF6347;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* The dropdown container */
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+/* Dropdown button */
+.dropdown .dropbtn {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: #FF6347;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  /* Important for vertical align on mobile phones */
+  margin: 0;
+  /* Important for vertical align on mobile phones */
+}
+
+/* Add a background color to navbar links on hover */
+.navbar a:hover,
+.dropdown:hover .dropbtn {
+  background-color: whitesmoke;
+}
+
+/* Dropdown content (hidden by default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: lightgrey;
+  min-width: 160px;
+  -webkit-box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+          box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  float: none;
+  color: #FF6347;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+/* Add a grey background color to dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* Background-color*/
+/* font color*/
+/*Background-color-navbar*/
+/* Font Family */
+.footer {
+  width: 100%;
+  position: relative;
+  height: 20vw;
+  background-color: lightgray;
+}
+
+.footer .col {
+  width: 20vw;
+  height: auto;
+  float: left;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  padding: 0 1vw 1vw 1vw;
+}
+
+.footer .col h1 {
+  margin: 0;
+  margin-top: 1.95vw;
+  padding: 0;
+  padding-top: 1vw;
+  font-family: inherit;
+  font-size: 1vw;
+  line-height: 1vw;
+  padding: 1vw 0 1vw 0;
+  color: #FF6347;
+  font-weight: normal;
+  text-transform: uppercase;
+  letter-spacing: 0.25vw;
+}
+
+.footer .col ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.footer .col ul li {
+  color: #FF6347;
+  font-size: 1vw;
+  font-family: inherit;
+  font-weight: bold;
+  padding: 1vw 0 0 0;
+  cursor: pointer;
+  transition: .2s;
+  -webkit-transition: .2s;
+  -moz-transition: .2s;
+}
+
+.footer .col a {
+  text-decoration: none;
+}
+
+.social ul li {
+  display: inline-block;
+  padding-right: 2vw;
+}
+
+.footer .col ul li:hover {
+  color: #ffffff;
+  transition: .1s;
+  -webkit-transition: .1s;
+  -moz-transition: .1s;
+}
+
+.clearfix {
+  clear: both;
+}
+
+.logo3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.logo3 img {
+  margin-top: 2vw;
+  padding-right: 12vw;
+  width: 13vw;
+  height: 13vw;
+}
+
+/* Background-color*/
+/* font color*/
+/*Background-color-navbar*/
+/* Font Family */
+#containerI {
+  background-color: #ededed;
+  padding-top: 2.5vw;
+  padding-bottom: 2.5vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.contform {
+  color: #FF6347;
+  font-family: Arial;
+  font-size: 1vw;
+  background-color: #5c5a5a;
+  border: solid;
+  padding: 0.5vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column;
+          flex-flow: column;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 60%;
+  height: 35vw;
+  text-align: center;
+  border-radius: 7px;
+  -webkit-box-shadow: 2px 1px 40px 8px rgba(0, 0, 0, 0.57);
+          box-shadow: 2px 1px 40px 8px rgba(0, 0, 0, 0.57);
+}
+
+.contform h2 {
+  font-size: 3vw;
+  margin-top: 1vw;
+  padding-top: 1vw;
+  margin-left: 1vw;
+  padding-left: 1vw;
+}
+
+.contform .namemail {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.contform .left {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column;
+          flex-flow: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 1vw;
+  font-size: 1.2vw;
+}
+
+.contform .left input {
+  width: 13vw;
+  height: 2vw;
+  text-align: center;
+  border: none;
+  border-bottom: solid;
+  color: #FF6347;
+  background-color: #5c5a5a;
+}
+
+.contform .right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column;
+          flex-flow: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 1vw;
+  font-size: 1.2vw;
+}
+
+.contform .right input {
+  width: 13vw;
+  height: 2vw;
+  text-align: center;
+  border: none;
+  border-bottom: solid;
+  color: #FF6347;
+  background-color: #5c5a5a;
+}
+
+.message {
+  font-size: 1.2vw;
+}
+
+.message textarea {
+  text-align: center;
+  border: none;
+  border-bottom: solid;
+  color: #FF6347;
+  background-color: #5c5a5a;
+  width: 30vw;
+}
+
+#contactbtn {
+  color: white;
+  background-color: #FF6347;
+  border-radius: 20px;
+  width: 10vw;
+  height: 5vw;
+  text-align: center;
+  border: none;
+  -webkit-box-shadow: 2px 1px 10px 8px #FF6347;
+          box-shadow: 2px 1px 10px 8px #FF6347;
+}
+
+#contactbtn:hover {
+  color: #FF6347;
+  background-color: white;
+}
+
+/*
+@media only screen and (min-width: 1280px) {
+    .contain {
+        width: 1200px;
+        margin: 0 auto;
+    }
+}
+@media only screen and (max-width: 1139px) {
+    .contain .social {
+        width: 1000px;
+        display: block;
+    }
+    .social h1 {
+        margin: 0px;
+    }
+}
+@media only screen and (max-width: 950px) {
+    .footer .col {
+        width: 33%;
+    }
+    .footer .col h1 {
+        font-size: 14px;
+    }
+    .footer .col ul li {
+        font-size: 13px;
+    }
+}
+@media only screen and (max-width: 500px) {
+    .footer .col {
+        width: 50%;
+    }
+    .footer .col h1 {
+        font-size: 14px;
+    }
+    .footer .col ul li {
+        font-size: 13px;
+    }
+}
+@media only screen and (max-width: 340px) {
+    .footer .col {
+        width: 100%;
+    }
+}
+*/
+/*# sourceMappingURL=constyle.css.map */

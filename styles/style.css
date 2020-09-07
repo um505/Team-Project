@@ -1,0 +1,235 @@
+body {
+  background-color: #ededed;
+  font-family: "Cuprum", sans-serif; }
+
+.circleImage {
+  display: none; }
+
+#headline {
+  background-color: #FF6347;
+  color: white;
+  height: 5vw;
+  font-size: 4vw;
+  text-align: center;
+  margin-top: 0vw; }
+
+#headline p {
+  margin-top: 0vw; }
+
+#container {
+  width: 100%;
+  margin-top: 4vw;
+  display: flex;
+  flex-direction: row; }
+
+.person {
+  width: 20%;
+  height: 55vw;
+  text-align: center; }
+
+.person:hover {
+  transform: scale(1.1);
+  cursor: pointer; }
+
+@keyframes fly {
+  from {
+    margin-top: 0vw; }
+  to {
+    margin-top: -200vw; } }
+.personImage {
+  width: 100%;
+  height: 38vw;
+  margin: auto;
+  position: relative; }
+
+.personHead {
+  width: 50%;
+  margin: auto;
+  border-radius: 50%;
+  background-color: red; }
+
+.personHead img {
+  width: 35%;
+  position: absolute;
+  top: 0vw;
+  left: 5.5vw; }
+
+#Person1head {
+  margin-top: -0.5vw;
+  margin-left: 0vw; }
+
+#Person2head {
+  margin-top: 0.7vw;
+  margin-left: 0vw; }
+
+#Person3head {
+  margin-top: 0.7vw;
+  margin-left: 1vw; }
+
+#Person4head {
+  margin-top: 0.2vw;
+  margin-left: 1.5vw; }
+
+#Person5head {
+  margin-top: -1.5vw;
+  margin-left: 1.5vw; }
+
+.personBody {
+  width: 100%;
+  height: 100%;
+  margin: auto; }
+
+.personBody img {
+  width: 100%;
+  height: 100%; }
+
+.moreButton {
+  background-color: #FF6347;
+  color: white;
+  width: 70%;
+  height: 3vw;
+  font-size: 2vw;
+  border-radius: 3vw;
+  cursor: pointer;
+  border: none; }
+
+.personName {
+  color: #898AA3;
+  font-weight: bold;
+  height: 3vw;
+  font-size: 2.5vw;
+  margin: 0; }
+
+.personRole {
+  color: #898AA3;
+  height: 3vw;
+  font-size: 2vw;
+  margin: 0; }
+
+.personDesc {
+  margin: 0;
+  color: gray;
+  height: 5vw;
+  font-size: 2vw; }
+
+.row2 {
+  height: 35vw; }
+
+.row3 {
+  height: 32vw; }
+
+.fire {
+  display: none; }
+
+.dataContainer {
+  border-top: 1px solid white; }
+
+.dropdown-content {
+  margin-top: -1.5vw; }
+
+.logo3 {
+  margin-left: -10vw; }
+
+@media screen and (max-width: 480px) {
+  .personImage {
+    display: none; }
+
+  .person {
+    width: 100%;
+    height: 70vw; }
+
+  .circleImage {
+    display: block;
+    width: 40%;
+    height: 30vw;
+    margin: auto;
+    opacity: 1;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 5px solid #FF6347; }
+
+  .circleImage img {
+    width: 100%;
+    height: 100%; }
+
+  #container {
+    flex-direction: column; }
+
+  .personName {
+    font-size: 8vw;
+    margin-top: 4vw; }
+
+  .personRole {
+    margin-top: 4vw;
+    font-size: 6vw; }
+
+  .personDesc {
+    margin-top: 4vw;
+    font-size: 4vw; }
+
+  .moreButton {
+    width: 30%;
+    height: 7vw;
+    font-size: 4vw;
+    font-weight: bold; }
+
+  .dataContainer {
+    border-top: 0px; }
+
+  #cflogo {
+    display: none; }
+
+  .logo {
+    justify-content: center; }
+
+  .contain {
+    height: 50vw;
+    display: flex;
+    flex-direction: column; }
+
+  .footer {
+    height: 60vw; }
+
+  .col {
+    width: 30%;
+    text-align: center; }
+
+  .footer .col {
+    width: 70%; }
+
+  .footer .col h1 {
+    font-size: 5vw; }
+
+  .footer .col ul li {
+    font-size: 4vw; }
+
+  .footRow1 {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 6vw;
+    justify-content: space-around; }
+
+  .footRow1 div {
+    width: 30%; }
+
+  .footRow2 {
+    display: flex;
+    flex-direction: row; }
+
+  .logo3 img {
+    width: 30vw;
+    height: 30vw;
+    margin-top: -10vw;
+    padding-right: 5vw; }
+
+  #copyright {
+    font-size: 3vw; }
+
+  .navbar {
+    display: flex;
+    justify-content: space-around; }
+
+  .dropdown {
+    margin-top: -3vw; } }
+
+/*# sourceMappingURL=style.css.map */

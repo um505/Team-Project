@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="constyle/constyle.css">
+</head>
+
+<body>
+    <!--Header START-->
+    <header>
+        <div class="logo">
+            <div><img src="img/logo.png" alt=""></div>
+            <div id="cflogo">
+                <a href="https://codefactory.wien/de/home/"><img src="img/logo2.png" alt=""></a>
+            </div>
+
+
+        </div>
+        <div class="navbar">
+            <a href="index.html">Home</a>
+
+            <div class="dropdown">
+                <button class="dropbtn">#Team5
+                <i class="fa fa-caret-down"></i>
+              </button>
+                <div class="dropdown-content">
+                    <a href="pages/andrey.html">Andrey</a>
+                    <a href="pages/carina.html">Carina</a>
+                    <a href="pages/maxim.html">Maxim</a>
+                    <a href="pages/samson.html">Samson</a>
+                    <a href="pages/beniamin.html">Beniamin</a>
+                </div>
+            </div>
+            <a href="#">Contact</a>
+        </div>
+
+    </header>
+    <!-- HEADER ENDS-->
+    <main>
+        <!--CONTACT FORM START-->
+        <div id="containerI">
+            <div class="contform">
+                <div class="heading1">
+                    <h2>Contact Us</h2>
+                </div>
+                <div class="namemail">
+                    <div class="left"><label for="name">Your Name</label><br>
+                        <input type="text" placeholder="Enter Your Name">
+                    </div>
+                    <div class="right"><label for="mail">E-mail &#9993;</label><br>
+                        <input type="text" placeholder="Enter Your E-mail">
+                    </div>
+                </div>
+                <div class="message">
+                    <div><label for="message">Message</label></div>
+                    <br>
+                    <div><textarea name="message" id="" cols="55" rows="2" placeholder="Enter Your Message"></textarea></div>
+                </div>
+                <button id="contactbtn" type="button">Submit &#8594;</button>
+            </div>
+
+        </div>
+        <!--CONTACT FORM END-->
+    </main>
+    <!-- FOOTER START -->
+    <div class="footer">
+        <div class="contain">
+            <div class="col">
+                <h1>#Team5</h1>
+                <ul>
+                    <a href="andrey.html">
+                        <li>Andrey Aleksovski</li>
+                    </a>
+                    <a href="beniamin.html">
+                        <li>Beniamin Hutyra</li>
+                    </a>
+                    <a href="maxim.html">
+                        <li>Maxim Ulyanov</li>
+                    </a>
+                    <a href="carina.html">
+                        <li>Carina Jurgovsky</li>
+                    </a>
+                    <a href="samson.html">
+                        <li>Samson Samwel</li>
+                    </a>
+
+                </ul>
+            </div>
+
+
+            <div class="col">
+                <h1>Support</h1>
+                <ul>
+                    <li>Contact us</li>
+                    <li>Web chat</li>
+
+                </ul>
+            </div>
+            <div class="col social">
+                <h1>Social</h1>
+                <ul>
+                    <a href="https://codefactory.wien/en/home-en/">
+                        <li><img src="https://cdn.svgporn.com/logos/facebook.svg" width="32" style="width: 32px;"></li>
+                    </a>
+                    <a href="https://codefactory.wien/en/home-en/">
+                        <li><img src="https://cdn.svgporn.com/logos/instagram-icon.svg" width="32" style="width: 32px;"></li>
+                    </a>
+                    <a href="https://codefactory.wien/en/home-en/">
+                        <li><img src="https://cdn.svgporn.com/logos/twitter.svg" width="32" style="width: 32px;"></li>
+                    </a>
+                </ul>
+            </div>
+            <div class="logo3">
+                <img src="img/logo.png" alt="logo">
+            </div>
+
+
+            <div class="clearfix"></div>
+        </div>
+    </div>
+    <!-- END OF FOOTER -->
+    <script>
+        document.getElementById("contactbtn").addEventListener("click", info)
+
+        function info() {
+            alert("Thank You for Contacting Us! - #Team5")
+        }
+    </script>
+</body>
+
+</html>

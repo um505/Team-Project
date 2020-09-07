@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Membership Page</title>
+    <link rel="stylesheet" type="text/css" href="teammember.css">
+</head>
+
+<body>
+    <main class="content">
+        <div class="img_and_progress">
+            <img src="https://filmdaily.co/wp-content/uploads/2018/03/superman-man-of-steel-1300x612.jpg">
+            <div class="progress">
+                <p>HTML5</p>
+                <div id="myBar" class="container_center myBar" style="width:0%">0%</div> <br>
+                <p>CSS3</p>
+                <div id="myBar1" class="container_center myBar" style="width:0%">0%</div> <br>
+                <p>JS</p>
+                <div id="myBar2" class="container_center myBar" style="width:0%">0%</div> <br>
+                <button class="button" onclick="move()">Click Me</button>
+            </div>
+        </div>
+        <div class="questions">
+            <div class="heading">
+                <h1>Maxim Ulyanov <br> 25 Years old</h1>
+            </div>
+            Languages: Russian <br>
+            German <br>
+            English <br>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        </div>
+        <script>
+        function move() {
+            var elem = document.getElementById("myBar");
+            var elem1 = document.getElementById("myBar1");
+            var elem2 = document.getElementById("myBar2");
+            var html = 1;
+            var css = 1;
+            var js = 1;
+            var id = setInterval(frame, 10);
+            var id1 = setInterval(frame, 10);
+            var id2 = setInterval(frame, 10);
+            function frame() {
+                if (html >= 80) {
+                    clearInterval(id);
+                } else {
+                    html++;
+                    elem.style.width = html + '%';
+                    elem.innerHTML = html * 1 + '%';     
+                }
+                if (css >= 50) {
+                    clearInterval(id1);
+                } else {
+                    css++;
+                    elem1.style.width = css + '%';
+                    elem1.innerHTML = css * 1 + '%';     
+                }
+                if (js >= 40) {
+                    clearInterval(id2);
+                } else {
+                    js++;
+                    elem2.style.width = js + '%';
+                    elem2.innerHTML = js * 1 + '%';     
+                }
+            }
+        }
+        </script>
+    </main>
+</body>
+
+</html>

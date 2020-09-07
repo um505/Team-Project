@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Membership Page</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="teammember.css">
+    <link rel="stylesheet" type="text/css" href="../footer/footer.style.css">
+    <link rel="stylesheet" href="../header_1/headstyle/hstyle.css">
+    <style>
+     iframe{
+    width: 40vw;
+    height: 30vw;
+}
+</style>
+</head>
+
+<body>
+
+    <!--Header START-->
+    <header>
+        <div class="logo">
+            <div><img src="../img/logo.png" alt=""></div>
+            <div id="cflogo">
+                <a href="https://codefactory.wien/de/home/"><img src="../img/logo2.png" alt=""></a>
+            </div>
+
+
+        </div>
+        <div class="navbar">
+            <a href="../index.html">Home</a>
+
+            <div class="dropdown">
+                <button class="dropbtn">#Team5
+                <i class="fa fa-caret-down"></i>
+              </button>
+                <div class="dropdown-content">
+                    <a href="Andrey.html">Andrey</a>
+                    <a href="Carina.html">Carina</a>
+                    <a href="Maxim.html">Maxim</a>
+                    <a href="Samson.html">Samson</a>
+                    <a href="Beniamin.html">Beniamin</a>
+                </div>
+            </div>
+            <a href="../contact.html">Contact</a>
+        </div>
+
+    </header>
+
+  <div>
+    <main class="content">
+        <div class="img_and_progress">
+            <img id="andrey" src="AndreyPeronal.jpg">
+            <div  class="progress">
+                <b><p>HTML5</p></b> 
+                <div id="myBar" class="container_center myBar" style="width:0%">0%</div> <br>
+                <b> <p>CSS3</p></b>
+                <div id="myBar1" class="container_center myBar" style="width:0%">0%</div> <br>
+                <b><p>JS</p></b>
+                <div id="myBar2" class="container_center myBar" style="width:0%">0%</div> <br>
+                <button class="button" onclick="move()">My Powers</button>
+            </div>
+        </div>
+        <div class="questions">
+            <div class="heading">
+                <h1>Andrey </h1>
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Flag_of_North_Macedonia.svg/2560px-Flag_of_North_Macedonia.svg.png">
+            </div>
+            <div class="personal_info">
+                <h3> “Денот се познава по утрото“ (The morning makes the day - North Macedonian)</h3>
+                <p><b>From:</b> North Macedonia/ Bulgaria (double citizenship). <br>
+            <b>Languages:</b> Bulgarian, Ex-Yu languages, German, English, Greek. <br>
+            
+            <b>What did you do before the FSWD course? </b><br>
+            -I was doing Marketing. <br>
+            <b>Hobbies, Interests:</b> Ski, Swimming, Jogging. <br>
+             <b>How do you plan to use your coding skills in the future? </b><br>
+            -Build innovative designs and top back-end solutions.<br>
+
+            <b>Favorite food:</b> <img src="https://media.giphy.com/media/sTUWqCKtxd01W/giphy.gif" alt="pizza gif"> <br>
+
+
+            
+            </p>
+            </div>
+            <div class="youtube">
+                     <p><b>One of my favorite songs:</b></p>
+                <iframe 
+                src="https://www.youtube.com/embed/bWXazVhlyxQ" frameborder="0" allowfullscreen>
+                </iframe>
+            </div>
+            
+            
+        </div>
+</div>
+<!-- FOOTER START -->
+    <div class="footer">
+        <div class="contain">
+            <div class="footRow1">
+            <div class="col">
+                <h1>#Team5</h1>
+                <ul>
+                    <a href="pages/andrey.html">
+                        <li>Andrey Aleksovski</li>
+                    </a>
+                    <a href="pages/beniamin.html">
+                        <li>Beniamin Hutyra</li>
+                    </a>
+                    <a href="pages/maxim.html">
+                        <li>Maxim Ulyanov</li>
+                    </a>
+                    <a href="pages/carina.html">
+                        <li>Carina Jurgovsky</li>
+                    </a>
+                    <a href="pages/samson.html">
+                        <li>Samson Samwel</li>
+                    </a>
+
+                </ul>
+            </div>
+
+
+            <div class="col">
+                <h1>Support</h1>
+                <ul>
+                    <li>Contact us</li>
+                    <li>Web chat</li>
+
+                </ul>
+            </div>
+           </div>
+           <div class="footRow2">
+            <div class="col social">
+                <h1>Social</h1>
+                <ul>
+                    <a href="https://codefactory.wien/en/home-en/">
+                        <li><img src="https://cdn.svgporn.com/logos/facebook.svg" width="32" style="width: 32px;"></li>
+                    </a>
+                    <a href="https://codefactory.wien/en/home-en/">
+                        <li><img src="https://cdn.svgporn.com/logos/instagram-icon.svg" width="32" style="width: 32px;"></li>
+                    </a>
+                    <a href="https://codefactory.wien/en/home-en/">
+                        <li><img src="https://cdn.svgporn.com/logos/twitter.svg" width="32" style="width: 32px;"></li>
+                    </a>
+                </ul>
+            </div>
+
+            <div class="col">
+                <div class="logo3">
+                    <img src="../img/logo.png" alt="logo">
+                </div>
+            </div>
+        </div>
+
+            <div class="clearfix"></div>
+        </div>
+        
+    </div>
+    <!-- END OF FOOTER -->
+
+
+        <script>
+        function move() {
+            var elem = document.getElementById("myBar");
+            var elem1 = document.getElementById("myBar1");
+            var elem2 = document.getElementById("myBar2");
+            var html = 1;
+            var css = 1;
+            var js = 1;
+            var id = setInterval(frame, 10);
+            var id1 = setInterval(frame, 10);
+            var id2 = setInterval(frame, 10);
+            function frame() {
+                if (html >= 55) {
+                    clearInterval(id);
+                } else {
+                    html++;
+                    elem.style.width = html + '%';
+                    elem.innerHTML = html * 1 + '%';     
+                }
+                if (css >= 67) {
+                    clearInterval(id1);
+                } else {
+                    css++;
+                    elem1.style.width = css + '%';
+                    elem1.innerHTML = css * 1 + '%';     
+                }
+                if (js >= 63) {
+                    clearInterval(id2);
+                } else {
+                    js++;
+                    elem2.style.width = js + '%';
+                    elem2.innerHTML = js * 1 + '%';     
+                }
+            }
+        }
+        </script>
+   
+</body>
+
+</html>
